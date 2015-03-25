@@ -16,6 +16,9 @@
     "ignore": {
             "files": ["Work_In_Progress.md"],
             "folders": ["99_Not_Ready"]
+    },
+    "links": {
+        "资源导航":"http://192.168.1.91"
     }
 
 }

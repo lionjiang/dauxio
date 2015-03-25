@@ -26,17 +26,17 @@ function setCodeBlockStyle(x) {
     switch (x) {
         default:
         case 0:
-            toggleCodeBlockBtn.innerHTML = "Show Code Blocks Inline";
+            toggleCodeBlockBtn.innerHTML = "行内显示代码块";
             codeBlockView.addClass('float-view');
             codeBlocks.removeClass('hidden');
             break;
         case 1:
-            toggleCodeBlockBtn.innerHTML = "Hide Code Blocks";
+            toggleCodeBlockBtn.innerHTML = "隐藏代码块";
             codeBlockView.removeClass('float-view');
             codeBlocks.removeClass('hidden');
             break;
         case 2:
-            toggleCodeBlockBtn.innerHTML = "Show Code Blocks";
+            toggleCodeBlockBtn.innerHTML = "显示代码块";
             codeBlockView.removeClass('float-view');
             codeBlocks.addClass('hidden');          
             break;

@@ -7,7 +7,7 @@
     "breadcrumbs": false,
     "template": "default",
     "clean_urls": false,
-    "toggle_code": false,
+    "toggle_code": true,
     "date_modified": false,
     "float": false,
     "file_editor": false,
