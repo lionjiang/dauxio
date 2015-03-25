@@ -63,7 +63,7 @@
             $base_url = $params['base_url'];
             $base_page = $params['base_page'];
             $homepage = $page['homepage'];
-            $project_title = utf8_encode($params['title']);
+            $project_title = $params['title'];
             $index = utf8_encode($base_page . $params['index']->value);
             $tree = $params['tree'];
             $entry_page = $page['entry_page'];

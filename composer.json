@@ -1,5 +1,5 @@
 {
-    "name": "justinwalsh/daux.io",
+    "name": "lionjiang/dauxio",
     "type": "project",
     "license": "MIT",
     "description": "Documentation generator that uses a simple folder structure and Markdown files to create custom documentation on the fly",

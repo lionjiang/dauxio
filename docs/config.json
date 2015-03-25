@@ -1,28 +1,21 @@
 {
-    "title": "DAUX.IO",
-    "tagline": "The Easiest Way To Document Your Project",
-    "author": "Justin Walsh",   
+    "title": "亿房知识库",
+    "tagline": "亿房知识库",
+    "author": "Jiang Wenhua",
     "image": "<base_url>img/app.png",
     "theme": "daux-blue",
     "template": "default",
-    "clean_urls": true,
+    "clean_urls": false,
     "toggle_code": true,
     "breadcrumbs": true,
     "breadcrumb_separator": "Chevrons",
     "date_modified": true,
     "float": true,
     "file_editor": false,   
-    "repo": "justinwalsh/daux.io",
+    "repo": "lionjiang/dauxio",
     "ignore": {
             "files": ["Work_In_Progress.md"],
             "folders": ["99_Not_Ready"]
-    },
-    "twitter": ["justin_walsh", "todaymade"],
-    "google_analytics": "UA-12653604-10",
-    "links": {
-        "Download": "https://github.com/justinwalsh/daux.io/archive/master.zip",
-        "GitHub Repo": "https://github.com/justinwalsh/daux.io",
-        "Help/Support/Bugs": "https://github.com/justinwalsh/daux.io/issues",
-        "Made by Todaymade": "http://todaymade.com"
     }
+
 }
