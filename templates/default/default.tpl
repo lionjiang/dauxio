@@ -270,7 +270,7 @@
 
     <!-- jQuery -->
     <?php if ($page['theme']['require-jquery']) { ?>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="<?php echo $base_url; ?>js/jquery-1.11.0.min.js"></script>
         <script>
             if (typeof jQuery == 'undefined')
                 document.write(unescape("%3Cscript src='<?php echo $base_url; ?>js/jquery-1.11.0.min.js' type='text/javascript'%3E%3C/script%3E"));
