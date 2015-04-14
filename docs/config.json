@@ -12,7 +12,7 @@
     "clean_urls": true,
     "date_modified": true,
     "float": true,
-    "file_editor": false,
+    "file_editor": true,
     "repo": "lionjiang/dauxio",
     "ignore": {
             "files": ["Work_In_Progress.md"],
