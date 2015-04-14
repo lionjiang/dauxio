@@ -9,9 +9,10 @@
     "toggle_code": true,
     "breadcrumbs": true,
     "breadcrumb_separator": "Chevrons",
+    "clean_urls": true,
     "date_modified": true,
     "float": true,
-    "file_editor": false,   
+    "file_editor": false,
     "repo": "lionjiang/dauxio",
     "ignore": {
             "files": ["Work_In_Progress.md"],
