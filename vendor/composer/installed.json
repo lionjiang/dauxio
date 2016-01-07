@@ -1,20 +1,20 @@
 [
     {
         "name": "erusev/parsedown",
-        "version": "1.0.0",
-        "version_normalized": "1.0.0.0",
+        "version": "1.6.0",
+        "version_normalized": "1.6.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/erusev/parsedown.git",
-            "reference": "2da10d277b086372f17b96df6cdc903829e1dde0"
+            "reference": "3ebbd730b5c2cf5ce78bc1bf64071407fc6674b7"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/erusev/parsedown/zipball/2da10d277b086372f17b96df6cdc903829e1dde0",
-            "reference": "2da10d277b086372f17b96df6cdc903829e1dde0",
+            "url": "http://packagist.phpcomposer.com/files/erusev/parsedown/3ebbd730b5c2cf5ce78bc1bf64071407fc6674b7.zip",
+            "reference": "3ebbd730b5c2cf5ce78bc1bf64071407fc6674b7",
             "shasum": ""
         },
-        "time": "2014-05-14 10:14:49",
+        "time": "2015-10-04 16:44:32",
         "type": "library",
         "installation-source": "dist",
         "autoload": {

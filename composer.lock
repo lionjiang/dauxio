@@ -1,22 +1,24 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
-    "hash": "21bea6f01fcb0695632cbacb5a3988a1",
+    "hash": "04c665ee799e9a2a22029c2d1a51196e",
+    "content-hash": "6aac17dc455150ce4b7b9f14d42a13c6",
     "packages": [
         {
             "name": "erusev/parsedown",
-            "version": "1.0.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/erusev/parsedown.git",
-                "reference": "2da10d277b086372f17b96df6cdc903829e1dde0"
+                "reference": "3ebbd730b5c2cf5ce78bc1bf64071407fc6674b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/erusev/parsedown/zipball/2da10d277b086372f17b96df6cdc903829e1dde0",
-                "reference": "2da10d277b086372f17b96df6cdc903829e1dde0",
+                "url": "http://packagist.phpcomposer.com/files/erusev/parsedown/3ebbd730b5c2cf5ce78bc1bf64071407fc6674b7.zip",
+                "reference": "3ebbd730b5c2cf5ce78bc1bf64071407fc6674b7",
                 "shasum": ""
             },
             "type": "library",
@@ -42,23 +44,17 @@
                 "markdown",
                 "parser"
             ],
-            "time": "2014-05-14 10:14:49"
+            "time": "2015-10-04 16:44:32"
         }
     ],
-    "packages-dev": [
-
-    ],
-    "aliases": [
-
-    ],
+    "packages-dev": [],
+    "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
     "platform": {
         "php": ">=5.3"
     },
-    "platform-dev": [
-
-    ]
+    "platform-dev": []
 }
