@@ -29,12 +29,13 @@ This is a list of sites using Daux.io:
 * [TrackJs](http://docs.trackjs.com) (uses a customized theme)
 * [Sugoi](http://doc.sugoi.ventrux.com/)
 * [wallabag](http://doc.wallabag.org/index)
+* [iGeo-Topo](http://igeo-topo.fr/doc)
 
 Do you use Daux.io? Send me a pull request or open an [issue](https://github.com/justinwalsh/daux.io/issues) and I will add you to the list.
 
 ## Download
 
-Download this repository as a zip, and unpack. Copy the files to a web server that can run PHP 5.3 or greater. You can also run the documentation locally using Grunt.js, which is covered at the end of this readme.
+Download this repository as a zip, and unpack. Copy the files to a web server that can run PHP 5.4 or greater. You can also run the documentation locally using Grunt.js, which is covered at the end of this readme.
 
 ## Folders
 
@@ -73,7 +74,7 @@ If you want to create a beautiful landing page for your project, simply create a
 {
 	"title": "Daux.io",
 	"tagline": "The Easiest Way To Document Your Project",
-	"image": "<base_url>img/app.png"
+	"image": "app.png"
 }
 ```
 
@@ -169,17 +170,6 @@ Include custom links in the sidebar.
 }
 ```
 
-###File editor:
-![File editor](https://f.cloud.github.com/assets/1788727/1954191/44358884-81d1-11e3-859d-254b9fb81808.png)
-
-Enable front-end Markdown editor. _Disabled by default_.
-
-```json
-{
-	"file_editor": true
-}
-```
-
 ###Google Analytics:
 This will embed the google analytics tracking code.
 
@@ -246,6 +236,17 @@ If your server does not have a default timezone set in php.ini, it may return er
 }
 ```
 
+###Inherit Index
+This feature will insruct the router to seek the first available file to use when a request to a folder is made and the index is not found.
+
+```json
+{
+        "live": [
+        	"inherit_index": true
+        ]
+}
+```
+
 ###Multi-language
 Enables multi-language support which needs seperate directories for each language in `docs/` folder.
 
@@ -279,7 +280,7 @@ Directory structure:
 
 ## Running Remotely
 
-Copy the files from the repo to a web server that can run PHP 5.3 or greater.
+Copy the files from the repo to a web server that can run PHP 5.4 or greater.
 
 ## Running Locally
 
